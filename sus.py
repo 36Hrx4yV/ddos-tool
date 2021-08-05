@@ -96,7 +96,7 @@ def dos2():
 
 def usage():
 	print (''' \033[92m	DDoS Attack Tool v1.0
-	No one is responsible do what you fucking want
+	No one is responsible do what you want
 	Use a fucking VPN when sending an attack
 	usage : python3 sus.py [-s] [-p] [-t]
 	-h : help
